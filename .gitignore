@@ -1,0 +1,16 @@
+node_modules/
+playwright-report/
+test-results/
+
+# Secrets – never commit
+.env
+
+# Runtime state and logs
+*.log
+.train-alert-state.json
+.train-alert-bot-state.json
+.menubar-state.json
+
+# macOS app build output
+macapp/build/
+.DS_Store

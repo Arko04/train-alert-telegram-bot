@@ -1,0 +1,19 @@
+{
+  "name": "train-alert-telegram-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only Alibaba.ir train seat availability checker",
+  "scripts": {
+    "check": "node --env-file-if-exists=.env src/index.js",
+    "bot": "node --env-file-if-exists=.env src/bot.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "nodemailer": "^9.0.5",
+    "playwright": "^1.55.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
